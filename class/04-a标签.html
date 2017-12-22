@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        p{
+            text-align: center;
+            font: 100;
+            color: red;
+        }
+
+    </style>
+
+    <title>a标签的使用</title>
+</head>
+<body>
+
+<p>1.什么是a标签：</p>
+<p>     a标签的作用：控制页面与页面之间的跳转。可以是文字或者图片。</p>
+<p>     a标签中有一个target属性（该属性有两个值：_self   _blank）：。</p>
+<p>     如果有很多a标签要指定跳转方式，那么可以在head 标签内使用 base标签。</p>
+<p>2.假链接</p>
+<p>     什么是假链接：假链接也可以点击，但是点击了不会跳转</p>
+<p>     项目开始前期，往往需要跳转的页面还没写好，因此我们可以用加链接来代替。</p>
+<p>     2.1🏠假链接的格式：</p>
+<p>             1：#   </p>
+<p>             2：javascript：   </p>
+
+
+<!--a标签的的格式：<a href="指定需要跳转的目标页面">需要展现给用户查看的内容。</a>-->
+<a href="http://www.w3school.com.cn/tags/html_ref_charactersets.asp" title="点我啊~">跳转jump</a>
+
+<a href="http://www.w3school.com.cn/tags/html_ref_charactersets.asp"
+   title="点我会跳转~"><img src="HTMLimg01.jpg" width="100"></a>
+
+<p>~~~~~~~~~~~~~~~</p>
+
+<h3>假标签</h3>
+
+<a href="#" target="_blank">跳转jump假链接#</a>
+
+<a href="javascript:" target="_self"><img src="HTMLimg01.jpg" width="100">假链接JavaScript： </a>
+</body>
+</html>

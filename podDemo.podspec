@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author       = { "lee0oo" => "251973606@qq.com" }  #作者
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/HarrySLee/ybtest.git", :tag => "0.0.1" }         #存储库的git地址，以及tag值
-  s.source_files =  "Classes", "class/**/*.{h,m}"
+  s.source_files =  "Classes", "class/*"
   s.requires_arc = true #是否支持ARC
   #s.dependency "Masonry" , "~> 1.1.0"
   #s.dependency "YYText" , "~> 1.0.7"
